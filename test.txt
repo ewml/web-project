@@ -1,1 +1,12 @@
-something
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="eggnog.css">
+
+<html>
+  <head>
+  <title>Eggnog</title>
+  <h1>Gathering all the information you need about upcoming events near you</h1>
+
+
+  <p> Edinburgh Sux! </p>
+
+  </html>
