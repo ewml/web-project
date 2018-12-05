@@ -1,0 +1,26 @@
+head {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  font-family: font-family: 'Playfair Display', serif;
+  font-family: 'Inconsolata', monospace;
+  background-image: url("edinburgh.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
