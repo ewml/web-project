@@ -5,6 +5,7 @@ head {
 body {
   font-family: font-family: 'Playfair Display', serif;
   font-family: 'Inconsolata', monospace;
+  color: white;
   background-image: url("edinburgh.jpg");
   text-align: center;
   background-repeat: no-repeat;
@@ -16,6 +17,11 @@ body {
   background-size: cover;
 }
 
+.statement {
+  background: rgba(0,0,0,0.5);
+  box-shadow: 0 0 0 10px rgba(0,0,0,0.5);
+}
+
 
 h1 {
   font-size: 50px;
@@ -23,4 +29,5 @@ h1 {
 
 p {
   font-size: 20px;
+  padding: 70px;
 }
