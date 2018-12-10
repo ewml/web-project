@@ -6,6 +6,7 @@
 
   <head>
     <title>Venues</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="eggnog.css">
     <link href= 'css/bootstrap.css' rel='stylesheet'>
     <meta charset="UTF-8">
@@ -16,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+
 
   </head>
 
@@ -47,16 +50,23 @@
 
 
 <div class="pagetop">
-    <h1> About the Site </h1>
-    <h2>The aim here is to collate all things related to music, art and entertainment happening in Edinburgh!</h2>
+    <h1> Edinburgh is home to some cool venues </h1>
+    <h2>Click on my buttons to find out</h2>
+
 </div>
 <div id="sections" class="text-center">
   <div class="row">
       <div class="col-sm-4">
         <div class="event">
-          <div class="transparentbox">
+          <div class="transparentbox show-description">
             <h2> Music </h2>
-            <p> There is something for everyone! </p>
+            <h2><ul>
+            <li> PAOLO </li>
+            <li> PROCLAIMERS </li>
+            </ul></h2>
+
+
+
           </div>
         </div>
       </div>
@@ -65,7 +75,9 @@
       <div class="event">
         <div class="transparentbox">
           <h2> Art </h2>
-          <p> Edinburgh is home to famous Art Galleries and has a host of local exhibitions. </p>
+          <button id="show">Take me to the Galleries</button>
+          <p id=gallerylink> <a href="https://www.nationalgalleries.org/">Galleries!</a></p>
+          <button id="hide">Hide the links</button>
         </div>
       </div>
     </div>
@@ -74,6 +86,8 @@
       <div class="event">
         <div class="transparentbox">
           <h2> Other Entertainment </h2>
+
+
           <p> Yo Yo yO </p>
         </div>
       </div>
@@ -81,6 +95,20 @@
   </div>
 </div>
 
+
+
+
+
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#gallerylink").hide();
+    });
+    $("#show").click(function(){
+        $("#gallerylink").show();
+    });
+});
+</script>
 
   </body>
 
