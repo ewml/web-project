@@ -1,9 +1,10 @@
 head {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+    font-family: 'Inconsolata', monospace;
 }
 
 body {
-  font-family: font-family: 'Playfair Display', serif;
+  /* font-family: font-family: 'Playfair Display', serif; */
   font-family: 'Inconsolata', monospace;
   color: white;
   background-image: url("jonathan-ricci-803713-unsplash.jpg");

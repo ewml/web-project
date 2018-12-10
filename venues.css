@@ -1,9 +1,11 @@
 head {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+    font-family: 'Inconsolata', monospace;
 }
 
 body {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+    font-family: 'Inconsolata', monospace;
   background-image: url("edin.jpg");
 }
 
