@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mission and Vision</title>
   <link href= 'css/bootstrap.css' rel='stylesheet'>
   <meta charset="UTF-8">
@@ -29,8 +30,8 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Things to Do</a></li>
-          <li><a href="#">Mission and Vision</a></li>
+          <li><a href="#">Things to Do</a></li>
+          <li class="active"><a href="#">Mission and Vision</a></li>
           <li><a href="#">Venues</a></li>
           <li><a href="#">Creators</a></li>
         </ul>
@@ -46,13 +47,56 @@
    <a class="btn skype" href="#"><i class="fa fa-skype"></i></a>
  </div>
 
+ <style>
+ .parallax {
+ background-image: url("jonathan-ricci-803713-unsplash.jpg");
+ min-height: 500px;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ </style>
+ </head>
+ <body>
 
-<div class="statement">
-  <h1>Mission</h1>
-  <p>Eggnog's mission is to find the best upcoming events in arts and culture and place them in one, easy to reach place</p>
-</div>
+ <h1>Mission and Vision</h1>
 
-<h1>Vision</h1>
+ <div class="parallax"></div>
+
+ <div style="height:700px;background-color:rgba(0,0,0,0.5);font-size:36px">
+   <h2>Mission</h2>
+   <p> Eggnog's mission is to find the best upcoming events in arts and culture and place them in once, easy to reach place</p>
+ </div>
+
+<div class="gap"></div>
+
+<div class="vision">
+<h2>Vision</h2>
 <p>Our vision is to create a creative space for users to interact with eachother and with Edinburgh</p>
 
+
+<div class="space"></div>
+
+
+<form action="/action_page.php">
+  <div class="container">
+    <h3>Keep up to date with upcoming events by signing up to our newsletter</h3>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+
+
+</body>
 </body>

@@ -6,7 +6,7 @@ body {
   font-family: font-family: 'Playfair Display', serif;
   font-family: 'Inconsolata', monospace;
   color: white;
-  background-image: url("edinburgh.jpg");
+  background-image: url("jonathan-ricci-803713-unsplash.jpg");
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,17 +17,42 @@ body {
   background-size: cover;
 }
 
-.statement {
-  background: rgba(0,0,0,0.5);
-  box-shadow: 0 0 0 10px rgba(0,0,0,0.5);
+
+.parallax {
+  padding: 30px;
 }
 
+.gap {
+  height: 700px;
+}
+
+.vision {
+  padding-bottom: 400px;
+  color: white;
+  background-color:rgba(0,0,0,0.5)
+}
+
+.space {
+  height: 400px;
+}
 
 h1 {
-  font-size: 50px;
+  margin: 100px 50px 100px 50px;
+  font-size: 100px;
+  padding-top: 30px;
+  color: rgb(24,24,24);
+}
+
+h2 {
+  font-size: 80px;
 }
 
 p {
+  font-size: 40px;
+  padding: 70px;
+}
+
+h3 {
   font-size: 20px;
   padding: 70px;
 }
