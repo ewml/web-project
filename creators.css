@@ -1,0 +1,25 @@
+head {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  font-family: font-family: 'Playfair Display', serif;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  background-image: url("jorg-angeli-797072-unsplash.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+  margin: 100px 50px 100px 50px;
+  font-size: 100px;
+  padding-top: 30px;
+  color: rgb(48,48,48);
