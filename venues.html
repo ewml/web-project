@@ -65,13 +65,12 @@
         <div class="event">
           <div class="transparentbox show-description">
             <h2> Music </h2>
-            <h2><ul>
-            <li> PAOLO </li>
-            <li> PROCLAIMERS </li>
-            </ul></h2>
 
+            <button class="music">MUSIC</button>
 
-
+            <p class="musictext">
+              Here is a link to <a href="https://www.list.co.uk/events/music/location:Edinburgh(55.9524,-3.1933)/">The List's upcoming music events</a>
+           </p>
           </div>
         </div>
       </div>
@@ -106,23 +105,19 @@
 
 
 
-
-<!-- <script>
-$(document).ready(function(){
-    $("#show").click(function(){
-        $("#gallerylink").hide();
-    });
-    $("#hide").click(function(){
-        $("#gallerylink").show();
-    });
-});
-</script> -->
-
 <script>
 
 $(".art").click(function() {
   $(".arttext").toggle();
 });
+
+
+$(".music").click(function() {
+  $(".musictext").toggle();
+});
+
+
+
 
 </script>
 
