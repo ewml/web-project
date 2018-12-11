@@ -27,7 +27,7 @@ body {
   color: white; */
   }
 
-  div.transparentbox {
+  div.event {
   height: 230px;
   background-size: cover;
   background-position: 50% 50%;
@@ -45,11 +45,12 @@ body {
   background-color:rgb(216, 186, 246, 0.8)
 }
 
-#gallerylink {
+/* #gallerylink {
   font-size: 24px;
   color: white;
 
-}
+} */
+
 
 .art {
   width: 120px;
@@ -66,5 +67,14 @@ p.arttext {
 }
 
 p.musictext {
+    font-size: 24px;
+}
+
+.otherent {
+  width: 120px;
+  height: 50px;
+}
+
+p.otherenttext {
     font-size: 24px;
 }

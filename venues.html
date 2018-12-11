@@ -47,7 +47,7 @@
 
 <div class="pagetop">
     <h1> Edinburgh is home to some cool venues </h1>
-    <h2>Click on my buttons to find out</h2>
+    <h2>Click on my buttons to find out where to go!</h2>
 
         <div class="social-btns">
           <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
@@ -63,7 +63,6 @@
   <div class="row">
       <div class="col-sm-4">
         <div class="event">
-          <div class="transparentbox show-description">
             <h2> Music </h2>
 
             <button class="music">MUSIC</button>
@@ -71,13 +70,11 @@
             <p class="musictext">
               Here is a link to <a href="https://www.list.co.uk/events/music/location:Edinburgh(55.9524,-3.1933)/">The List's upcoming music events</a>
            </p>
-          </div>
         </div>
       </div>
 
     <div class="col-sm-4">
       <div class="event">
-        <div class="transparentbox">
           <h2> Art </h2>
 
           <button class="art">ART</button>
@@ -85,18 +82,18 @@
           <p class="arttext">
             Here is a link to the <a href="https://www.nationalgalleries.org/">Galleries!</a>
          </p>
-        </div>
       </div>
     </div>
 
     <div class="col-sm-4">
       <div class="event">
-        <div class="transparentbox">
           <h2> Other Entertainment </h2>
 
+          <button class="otherent">OTHER ENTERTAINMENT</button>
 
-          <p> Yo Yo yO </p>
-        </div>
+          <p class="otherenttext">
+            Here is a link to some <a href="https://www.nationalgalleries.org/">Lonely Planet</a> suggestions.
+         </p>
       </div>
     </div>
   </div>
@@ -116,6 +113,9 @@ $(".music").click(function() {
   $(".musictext").toggle();
 });
 
+$(".otherent").click(function() {
+  $(".otherenttext").toggle();
+});
 
 
 
