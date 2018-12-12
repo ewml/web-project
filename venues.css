@@ -9,6 +9,7 @@ body {
   background-image: url("edin.jpg");
 }
 
+
 .pagetop{
   margin-top: 75px;
   text-align: center;
@@ -46,36 +47,30 @@ body {
   background-color:rgb(216, 186, 246, 0.8)
 }
 
-.art {
-  width: 120px;
-  height: 50px;
-}
-
-.arttext {
-    font-size: 24px;
-}
-
-.music {
-  width: 120px;
-  height: 50px;
+p.arttext {
+  font-size: 24px;
+  display: none;
 }
 
 p.musictext {
     font-size: 24px;
+    display: none;
 }
 
-.otherent {
-  width: 120px;
-  height: 50px;
-}
 
 p.otherenttext {
     font-size: 24px;
+    display: none;
+
 }
 button {
-  font-size: 14px;
-  padding: 14px 40px;
-  text-align: center;
+ height: 80px;
+ width: 300px;
+ padding: 12px 16px;
+ text-align: center;
+ background-color: white;
+ border-radius: 10px;
+ font-size: 30px;
 }
 .social-btns {
   height: 50px;
