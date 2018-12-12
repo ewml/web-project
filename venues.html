@@ -3,25 +3,6 @@
 
 
 <html>
-
-  <!-- <head>
-    <title>Venues</title>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="venues.css">
-    <link href= 'css/bootstrap.css' rel='stylesheet'>
-    <meta charset="UTF-8">
-    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
-
-
-  </head> -->
-
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mission and Vision</title>
@@ -61,65 +42,92 @@
  </nav>
 
 
+
+
 <div class="pagetop">
     <h1> Edinburgh is home to some cool venues </h1>
-    <h2>Click on my buttons to find out</h2>
+    <h2>Click on my buttons to find out where to go!</h2>
 
+        <!-- <div class="social-btns">
+          <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+          <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+          <a class="btn google" href="#"><i class="fa fa-google"></i></a>
+          <a class="btn dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+          <a class="btn skype" href="#"><i class="fa fa-skype"></i></a>
+        </div> -->
 </div>
+
+
 <div id="sections" class="text-center">
   <div class="row">
       <div class="col-sm-4">
         <div class="event">
-          <div class="transparentbox show-description">
             <h2> Music </h2>
-            <h2><ul>
-            <li> PAOLO </li>
-            <li> PROCLAIMERS </li>
-            </ul></h2>
 
+            <button class="music">MUSIC</button>
 
-
-          </div>
+            <p class="musictext">
+              Here is a link to <a href="https://www.list.co.uk/events/music/location:Edinburgh(55.9524,-3.1933)/">The List's upcoming music events</a>
+           </p>
         </div>
       </div>
 
     <div class="col-sm-4">
       <div class="event">
-        <div class="transparentbox">
           <h2> Art </h2>
-          <button id="show">Take me to the Galleries</button>
-          <p id=gallerylink> <a href="https://www.nationalgalleries.org/">Galleries!</a></p>
-          <button id="hide">Hide the links</button>
-        </div>
+
+          <button class="art">ART</button>
+
+          <p class="arttext">
+            Here is a link to the <a href="https://www.nationalgalleries.org/">Galleries!</a>
+         </p>
       </div>
     </div>
 
     <div class="col-sm-4">
       <div class="event">
-        <div class="transparentbox">
           <h2> Other Entertainment </h2>
 
+          <button class="otherent">OTHER ENTERTAINMENT</button>
 
-          <p> Yo Yo yO </p>
-        </div>
+          <p class="otherenttext">
+            Here is a link to some <a href="https://www.nationalgalleries.org/">Lonely Planet</a> suggestions.
+         </p>
       </div>
     </div>
   </div>
+
+
+  <div class="social-btns">
+    <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+    <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+    <a class="btn google" href="#"><i class="fa fa-google"></i></a>
+    <a class="btn dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+    <a class="btn skype" href="#"><i class="fa fa-skype"></i></a>
 </div>
 
+</div>
 
 
 
 
 <script>
-$(document).ready(function(){
-    $("#hide").click(function(){
-        $("#gallerylink").hide();
-    });
-    $("#show").click(function(){
-        $("#gallerylink").show();
-    });
+
+$(".art").click(function() {
+  $(".arttext").toggle();
 });
+
+
+$(".music").click(function() {
+  $(".musictext").toggle();
+});
+
+$(".otherent").click(function() {
+  $(".otherenttext").toggle();
+});
+
+
+
 </script>
 
   </body>

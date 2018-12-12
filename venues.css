@@ -27,11 +27,12 @@ body {
   color: white; */
   }
 
-  div.transparentbox {
+  div.event {
   height: 230px;
   background-size: cover;
   background-position: 50% 50%;
   margin: 40px 0 0 0;
+  align-items: center;
   background-color: rgba(242,242,242,0.5);
   border-radius: 10px;
   border: solid black;
@@ -45,8 +46,43 @@ body {
   background-color:rgb(216, 186, 246, 0.8)
 }
 
-#gallerylink {
-  font-size: 24px;
-  color: white;
+.art {
+  width: 120px;
+  height: 50px;
+}
 
+.arttext {
+    font-size: 24px;
+}
+
+.music {
+  width: 120px;
+  height: 50px;
+}
+
+p.musictext {
+    font-size: 24px;
+}
+
+.otherent {
+  width: 120px;
+  height: 50px;
+}
+
+p.otherenttext {
+    font-size: 24px;
+}
+button {
+  font-size: 14px;
+  padding: 14px 40px;
+  text-align: center;
+}
+.social-btns {
+  height: 50px;
+  background-position: 50% 50%;
+  padding: 7px;
+  margin: 40px 500px 40px 500px;
+  background-color: rgba(242,242,242,0.5);
+  border-radius: 10px;
+  border: solid black;
 }
