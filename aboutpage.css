@@ -114,6 +114,7 @@ h1{
   margin-top: 50px;
   position: fixed;
   top: 20px;
+  height: auto;
   /* bottom:7px;
   right: 10px; */
 }
