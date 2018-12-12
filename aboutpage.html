@@ -41,14 +41,25 @@
 <br>
 <br>
 
-<h1> Events in Edinburgh </h1>
+<div class="topofpage">
+  <h1> Events in Edinburgh </h1>
+  <div class="social-btns">
+    <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+    <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+    <a class="btn google" href="#"><i class="fa fa-google"></i></a>
+    <a class="btn dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+    <a class="btn skype" href="#"><i class="fa fa-skype"></i></a>
+  </div>
+
+
+</div>
 
 <div class="event1">
   <h2>Edinburgh Christmas Market</h2>
   <p> Edinburgh's Christmas Market offers a range of festive activies including ice skating and Santa's grotto, as well as hosting a breath-taking light night
   for you to have the most out of this spectacular season </p>
-  <div class=christmas>
-  <img src="chrismas.jpg" alt="Edinburgh Christmas Market">
+  <div class="christmas">
+  <!-- <img src="chrismas.jpg" alt="Edinburgh Christmas Market"> -->
 </div>
   <a href="http://www.edinburghschristmas.com/#stq=&stp=1">Click Here to Check out Edinburgh Christmas Market's Website</a>
 </div>
@@ -56,36 +67,50 @@
 <div class="event2">
   <h2>BBC Scottish Symphony Orchestra</h2>
   <p>BBC Scottish Sympjony Orchestra will be perfoming the best pieces of Mahler throughout this remarkable evening. Book your tickets now to experience this special concert!</p>
-  <img src="symphony" alt="BBC Scottish Symphony Orchestra">
+  <!-- <img src="symphony" alt="BBC Scottish Symphony Orchestra"> -->
   <a href="https://www.bbc.co.uk/bbcsso">Learn more about the upcoming concerts of BBC Scottish Symphony Orchestra</a>
 </div>
 
 <div class="event3">
   <h2>Exhibition:Edwin G Lucas</h2>
   <p>Check out this unique exhibition of Edwin G Lucas' masterpieces at the Scottish National Modern Gallery of Art</p>
-  <img src= "EdwinGLucas.jpg" alt="A piece from Edwin G Lucas">
+  <!-- <img src= "EdwinGLucas.jpg" alt="A piece from Edwin G Lucas"> -->
   <a href="https://www.edinburghmuseums.org.uk/whats-on/edwin-g-lucas-individual-eye">Click Here to learn more about the exhibition</a>
 </div>
 
 <div class="event4">
   <h2>Edinburgh Light Night</h2>
   <p>Not only you can watch this spectacular show of fireworks, but also you can listen to the most amazing shows from choirs coming all over Scotland</p>
-  <img src="light-night.jpeg" alt="Edinburgh Light Night">
+  <!-- <img src="light-night.jpeg" alt="Edinburgh Light Night"> -->
   <a href=http://www.edinburghschristmas.com/whats-on/light-night3>Learn more about the event</a>
+</div>
 
 
 
-
+<!--
  <div class="social-btns">
    <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
    <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
    <a class="btn google" href="#"><i class="fa fa-google"></i></a>
    <a class="btn dribbble" href="#"><i class="fa fa-dribbble"></i></a>
    <a class="btn skype" href="#"><i class="fa fa-skype"></i></a>
- </div>
-
+ </div> -->
+<!--
 <div id="hastag">
-<a class="twitter-timeline" data-width="300" data-height="550" data-theme="light" href="https://twitter.com/edinburgh?ref_src=twsrc%5Etfw">Tweets by edinburgh</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="100%" data-height="550" data-theme="light" href="https://twitter.com/edinburgh?ref_src=twsrc%5Etfw">Tweets by edinburgh</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div> -->
+
+<div class="hastag">
+<a class="twitter-timeline" data-height="550" data-theme="light" href="https://twitter.com/edinburgh?ref_src=twsrc%5Etfw">Tweets by Edinburgh</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
+
+
+
+<script>
+$(‘#ParentContainer’).scroll(function() {
+   $(‘#hastagDiv’).css(‘top’, $(this).scrollTop());
+});
+</script>
+
 
 </body>
