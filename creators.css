@@ -23,3 +23,7 @@ h1 {
   font-size: 100px;
   padding-top: 30px;
   color: rgb(48,48,48);
+
+img {
+  border-radius: 50%;
+}
